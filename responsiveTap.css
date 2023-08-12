@@ -1,0 +1,70 @@
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .responsive-navbar{
+        display: none;
+    }
+    .nav-section-2 {
+        display: block;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 0px;
+    }
+    .footer-section {
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+      
+    }
+    .grid-skill{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 0px;
+        grid-row-gap: 81px;
+}
+.responsive{
+    display: none;
+}
+.skill-section {
+    overflow: hidden;
+    height: 644px;
+}
+.team-section-1-h1 {
+    letter-spacing: 1px;
+}.section-1-h1 {
+    letter-spacing: 2px;
+}
+
+.section-portfolio {
+    letter-spacing: 1px;
+}
+.team-section-1-h2 {
+    letter-spacing: 0px;
+}
+.input-1 {
+    color: white;
+    padding: 10px 9px;
+    width: 378px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 3px;
+    margin-left: 66px;
+    margin-bottom: 13px;
+}
+.input-2 {
+    width: 372px;
+    color: white;
+    margin-left: 66px;
+    border-radius: 3px;
+    padding: 13px 11px;
+    background-color: #273a71;
+    border: none;
+}
+.input-div-3 {
+    width: 490px;
+    height: 168px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+}
